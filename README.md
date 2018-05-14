@@ -1,6 +1,71 @@
 # ZYBXOREncryptDemo
 OC 数据异或加密解密工具
 
+###
+## ZYBXOREncryptUtil.h
+@interface ZYBXOREncryptUtil : NSObject
++(ZYBXOREncryptUtil * )shareInstance;
+//加密
+-(NSString *)xor_encrypWithString:(NSString *)str;
+
+//解密
+-(NSString *)xor_decryptWithString:(NSString *)str;
+
+@end
+
+@interface NSData(XOREncrypt)
+/**  加密  */
+- (NSString *)xor_encrypt;
+
+/**  解密 */
+- (NSString *)xor_decrypt;
+
+@end
+
+
+## ZYBXOREncryptUtil.m
+
+@implementation ZYBXOREncryptUtil
+static ZYBXOREncryptUtil *shareInstance =nil;
++(ZYBXOREncryptUtil *)shareInstance
+{
+static dispatch_once_t once;
+dispatch_once(&once, ^{
+shareInstance =[[self alloc]init];
+});
+return shareInstance;
+}
+//当使用alloc的时候回调用这个方法    （保证唯一性）
++(instancetype)allocWithZone:(struct _NSZone *)zone
+{
+if(shareInstance==nil)
+{
+static dispatch_once_t once;
+dispatch_once(&once, ^{
+shareInstance=[super allocWithZone:zone];
+});
+}
+return shareInstance;
+}
+//加密
+-(NSString *)xor_encrypWithString:(NSString *)str
+{
+NSData *data = [str dataUsingEncoding:NSUTF8StringEncoding];
+
+return [data xor_encrypt];
+}
+//解密
+-(NSString *)xor_decryptWithString:(NSString *)str
+{
+NSData *data = [str dataUsingEncoding:NSUTF8StringEncoding];
+
+return [data xor_decrypt];
+}
+@end
+//秘钥
+static NSString const *PWD_MOBILE_V1 = @"UYWIWEHIUHCNOWEA23F3ASD98ASDNLK0230NSDLKCFN20";
+
+@implementation NSData(XOREncrypt)
 
 //解密
 - (NSString *)xor_decrypt
@@ -35,3 +100,6 @@ Byte b = (Byte) ((point[i]) ^ c);       // 异或运算
 }
 return [[NSString alloc]initWithData:encryptData.copy encoding:NSUTF8StringEncoding];
 }
+
+@end
+###
