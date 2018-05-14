@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0B880220A921EC006BAF16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B880120A921EC006BAF16 /* AppDelegate.m */; };
+		4A0B880520A921EC006BAF16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B880420A921EC006BAF16 /* ViewController.m */; };
+		4A0B880820A921EC006BAF16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B880620A921EC006BAF16 /* Main.storyboard */; };
+		4A0B880A20A921EE006BAF16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B880920A921EE006BAF16 /* Assets.xcassets */; };
+		4A0B880D20A921EE006BAF16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B880B20A921EE006BAF16 /* LaunchScreen.storyboard */; };
+		4A0B881020A921EE006BAF16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B880F20A921EE006BAF16 /* main.m */; };
+		4A0B881A20A921EE006BAF16 /* ZYBXOREncrypDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B881920A921EE006BAF16 /* ZYBXOREncrypDemoTests.m */; };
+		4A0B882520A921EE006BAF16 /* ZYBXOREncrypDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B882420A921EE006BAF16 /* ZYBXOREncrypDemoUITests.m */; };
+		4A0B883420A92352006BAF16 /* ZYBXOREncryptUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B883320A92352006BAF16 /* ZYBXOREncryptUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A0B881620A921EE006BAF16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0B87F520A921EC006BAF16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0B87FC20A921EC006BAF16;
+			remoteInfo = ZYBXOREncrypDemo;
+		};
+		4A0B882120A921EE006BAF16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0B87F520A921EC006BAF16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0B87FC20A921EC006BAF16;
+			remoteInfo = ZYBXOREncrypDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A0B87FD20A921EC006BAF16 /* ZYBXOREncrypDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYBXOREncrypDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0B880020A921EC006BAF16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A0B880120A921EC006BAF16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A0B880320A921EC006BAF16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A0B880420A921EC006BAF16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A0B880720A921EC006BAF16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A0B880920A921EE006BAF16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A0B880C20A921EE006BAF16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A0B880E20A921EE006BAF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0B880F20A921EE006BAF16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A0B881520A921EE006BAF16 /* ZYBXOREncrypDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYBXOREncrypDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0B881920A921EE006BAF16 /* ZYBXOREncrypDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYBXOREncrypDemoTests.m; sourceTree = "<group>"; };
+		4A0B881B20A921EE006BAF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0B882020A921EE006BAF16 /* ZYBXOREncrypDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYBXOREncrypDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0B882420A921EE006BAF16 /* ZYBXOREncrypDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYBXOREncrypDemoUITests.m; sourceTree = "<group>"; };
+		4A0B882620A921EE006BAF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0B883220A92352006BAF16 /* ZYBXOREncryptUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBXOREncryptUtil.h; sourceTree = "<group>"; };
+		4A0B883320A92352006BAF16 /* ZYBXOREncryptUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBXOREncryptUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A0B87FA20A921EC006BAF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B881220A921EE006BAF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B881D20A921EE006BAF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0B87F420A921EC006BAF16 = {
+			isa = PBXGroup;
+			children = (
+				4A0B87FF20A921EC006BAF16 /* ZYBXOREncrypDemo */,
+				4A0B881820A921EE006BAF16 /* ZYBXOREncrypDemoTests */,
+				4A0B882320A921EE006BAF16 /* ZYBXOREncrypDemoUITests */,
+				4A0B87FE20A921EC006BAF16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A0B87FE20A921EC006BAF16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B87FD20A921EC006BAF16 /* ZYBXOREncrypDemo.app */,
+				4A0B881520A921EE006BAF16 /* ZYBXOREncrypDemoTests.xctest */,
+				4A0B882020A921EE006BAF16 /* ZYBXOREncrypDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A0B87FF20A921EC006BAF16 /* ZYBXOREncrypDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B883220A92352006BAF16 /* ZYBXOREncryptUtil.h */,
+				4A0B883320A92352006BAF16 /* ZYBXOREncryptUtil.m */,
+				4A0B880020A921EC006BAF16 /* AppDelegate.h */,
+				4A0B880120A921EC006BAF16 /* AppDelegate.m */,
+				4A0B880320A921EC006BAF16 /* ViewController.h */,
+				4A0B880420A921EC006BAF16 /* ViewController.m */,
+				4A0B880620A921EC006BAF16 /* Main.storyboard */,
+				4A0B880920A921EE006BAF16 /* Assets.xcassets */,
+				4A0B880B20A921EE006BAF16 /* LaunchScreen.storyboard */,
+				4A0B880E20A921EE006BAF16 /* Info.plist */,
+				4A0B880F20A921EE006BAF16 /* main.m */,
+			);
+			path = ZYBXOREncrypDemo;
+			sourceTree = "<group>";
+		};
+		4A0B881820A921EE006BAF16 /* ZYBXOREncrypDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B881920A921EE006BAF16 /* ZYBXOREncrypDemoTests.m */,
+				4A0B881B20A921EE006BAF16 /* Info.plist */,
+			);
+			path = ZYBXOREncrypDemoTests;
+			sourceTree = "<group>";
+		};
+		4A0B882320A921EE006BAF16 /* ZYBXOREncrypDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B882420A921EE006BAF16 /* ZYBXOREncrypDemoUITests.m */,
+				4A0B882620A921EE006BAF16 /* Info.plist */,
+			);
+			path = ZYBXOREncrypDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0B87FC20A921EC006BAF16 /* ZYBXOREncrypDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0B882920A921EE006BAF16 /* Build configuration list for PBXNativeTarget "ZYBXOREncrypDemo" */;
+			buildPhases = (
+				4A0B87F920A921EC006BAF16 /* Sources */,
+				4A0B87FA20A921EC006BAF16 /* Frameworks */,
+				4A0B87FB20A921EC006BAF16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYBXOREncrypDemo;
+			productName = ZYBXOREncrypDemo;
+			productReference = 4A0B87FD20A921EC006BAF16 /* ZYBXOREncrypDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A0B881420A921EE006BAF16 /* ZYBXOREncrypDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0B882C20A921EE006BAF16 /* Build configuration list for PBXNativeTarget "ZYBXOREncrypDemoTests" */;
+			buildPhases = (
+				4A0B881120A921EE006BAF16 /* Sources */,
+				4A0B881220A921EE006BAF16 /* Frameworks */,
+				4A0B881320A921EE006BAF16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0B881720A921EE006BAF16 /* PBXTargetDependency */,
+			);
+			name = ZYBXOREncrypDemoTests;
+			productName = ZYBXOREncrypDemoTests;
+			productReference = 4A0B881520A921EE006BAF16 /* ZYBXOREncrypDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A0B881F20A921EE006BAF16 /* ZYBXOREncrypDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0B882F20A921EE006BAF16 /* Build configuration list for PBXNativeTarget "ZYBXOREncrypDemoUITests" */;
+			buildPhases = (
+				4A0B881C20A921EE006BAF16 /* Sources */,
+				4A0B881D20A921EE006BAF16 /* Frameworks */,
+				4A0B881E20A921EE006BAF16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0B882220A921EE006BAF16 /* PBXTargetDependency */,
+			);
+			name = ZYBXOREncrypDemoUITests;
+			productName = ZYBXOREncrypDemoUITests;
+			productReference = 4A0B882020A921EE006BAF16 /* ZYBXOREncrypDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A0B87F520A921EC006BAF16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					4A0B87FC20A921EC006BAF16 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4A0B881420A921EE006BAF16 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4A0B87FC20A921EC006BAF16;
+					};
+					4A0B881F20A921EE006BAF16 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4A0B87FC20A921EC006BAF16;
+					};
+				};
+			};
+			buildConfigurationList = 4A0B87F820A921EC006BAF16 /* Build configuration list for PBXProject "ZYBXOREncrypDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A0B87F420A921EC006BAF16;
+			productRefGroup = 4A0B87FE20A921EC006BAF16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0B87FC20A921EC006BAF16 /* ZYBXOREncrypDemo */,
+				4A0B881420A921EE006BAF16 /* ZYBXOREncrypDemoTests */,
+				4A0B881F20A921EE006BAF16 /* ZYBXOREncrypDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A0B87FB20A921EC006BAF16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0B880D20A921EE006BAF16 /* LaunchScreen.storyboard in Resources */,
+				4A0B880A20A921EE006BAF16 /* Assets.xcassets in Resources */,
+				4A0B880820A921EC006BAF16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B881320A921EE006BAF16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B881E20A921EE006BAF16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0B87F920A921EC006BAF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0B880520A921EC006BAF16 /* ViewController.m in Sources */,
+				4A0B881020A921EE006BAF16 /* main.m in Sources */,
+				4A0B880220A921EC006BAF16 /* AppDelegate.m in Sources */,
+				4A0B883420A92352006BAF16 /* ZYBXOREncryptUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B881120A921EE006BAF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0B881A20A921EE006BAF16 /* ZYBXOREncrypDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B881C20A921EE006BAF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0B882520A921EE006BAF16 /* ZYBXOREncrypDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A0B881720A921EE006BAF16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0B87FC20A921EC006BAF16 /* ZYBXOREncrypDemo */;
+			targetProxy = 4A0B881620A921EE006BAF16 /* PBXContainerItemProxy */;
+		};
+		4A0B882220A921EE006BAF16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0B87FC20A921EC006BAF16 /* ZYBXOREncrypDemo */;
+			targetProxy = 4A0B882120A921EE006BAF16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A0B880620A921EC006BAF16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0B880720A921EC006BAF16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A0B880B20A921EE006BAF16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0B880C20A921EE006BAF16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A0B882720A921EE006BAF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A0B882820A921EE006BAF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A0B882A20A921EE006BAF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYBXOREncrypDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RhinoDataDev.ZYBXOREncrypDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A0B882B20A921EE006BAF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYBXOREncrypDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RhinoDataDev.ZYBXOREncrypDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A0B882D20A921EE006BAF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYBXOREncrypDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RhinoDataDev.ZYBXOREncrypDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYBXOREncrypDemo.app/ZYBXOREncrypDemo";
+			};
+			name = Debug;
+		};
+		4A0B882E20A921EE006BAF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYBXOREncrypDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RhinoDataDev.ZYBXOREncrypDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYBXOREncrypDemo.app/ZYBXOREncrypDemo";
+			};
+			name = Release;
+		};
+		4A0B883020A921EE006BAF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYBXOREncrypDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RhinoDataDev.ZYBXOREncrypDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYBXOREncrypDemo;
+			};
+			name = Debug;
+		};
+		4A0B883120A921EE006BAF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYBXOREncrypDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RhinoDataDev.ZYBXOREncrypDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYBXOREncrypDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0B87F820A921EC006BAF16 /* Build configuration list for PBXProject "ZYBXOREncrypDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0B882720A921EE006BAF16 /* Debug */,
+				4A0B882820A921EE006BAF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0B882920A921EE006BAF16 /* Build configuration list for PBXNativeTarget "ZYBXOREncrypDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0B882A20A921EE006BAF16 /* Debug */,
+				4A0B882B20A921EE006BAF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0B882C20A921EE006BAF16 /* Build configuration list for PBXNativeTarget "ZYBXOREncrypDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0B882D20A921EE006BAF16 /* Debug */,
+				4A0B882E20A921EE006BAF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0B882F20A921EE006BAF16 /* Build configuration list for PBXNativeTarget "ZYBXOREncrypDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0B883020A921EE006BAF16 /* Debug */,
+				4A0B883120A921EE006BAF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A0B87F520A921EC006BAF16 /* Project object */;
+}
